@@ -140,7 +140,7 @@ img {
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
-  padding: 2rem 0 4rem;
+  padding: 1rem 0 4rem;
 }
 
 .section__title {
@@ -224,7 +224,7 @@ img {
 }
 
 .nav__list {
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
 }
 
@@ -996,6 +996,12 @@ img {
   }
 }
 
+@media screen and (max-width: 568px) {
+  .contact_wrapper {
+    display: block;
+  }
+}
+
 /* For large devices */
 ;
 @media screen and (min-width:768px) {
@@ -1019,5 +1025,11 @@ img {
   .nav {
     background-color: #000;
     ;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0 15px !important;
   }
 }
